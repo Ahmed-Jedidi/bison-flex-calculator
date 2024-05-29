@@ -12,3 +12,15 @@ It's a flex and bison calculator demonstrating polymorphism in the abstract synt
 ### Test 3
 ![Test3](https://github.com/Ahmed-Jedidi/bison-flex-calculator/assets/74512793/8811fae1-1421-490f-ad43-edde3eb371e7)
 
+
+# Required commands :
+
+1. bison -d grammaire.y
+
+2. flex  -o scanner.c scanner.l
+
+3. gcc  -o calc scanner.c grammaire.tab.c -lm
+
+4. calc < valid.txt
+
+Remark : Execute calc.exe file, you can test with the expression in valid.txt file.
