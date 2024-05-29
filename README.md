@@ -15,12 +15,20 @@ It's a flex and bison calculator demonstrating polymorphism in the abstract synt
 
 # Required commands :
 
-1. bison -d grammaire.y
+1. ```
+   bison -d grammaire.y
+   ```
 
-2. flex  -o scanner.c scanner.l
+2. ```
+   flex  -o scanner.c scanner.l
+   ```
 
-3. gcc  -o calc scanner.c grammaire.tab.c -lm
+3. ```
+   gcc  -o calc scanner.c grammaire.tab.c -lm
+   ```
 
-4. calc < valid.txt
+4. ```
+   calc < valid.txt
+   ```
 
 Remark : Execute calc.exe file, you can test with the expression in valid.txt file.
